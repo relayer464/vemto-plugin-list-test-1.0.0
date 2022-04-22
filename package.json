@@ -1,0 +1,15 @@
+{
+    "version": "1.0.0",
+    "id": "vemto-plugin-list-test-1.0.0",
+    "name": "vemto-plugin-list-test-1.0.0",
+    "title": "List Test",
+    "description": "This plugin tests the list vemtl file.",
+    "image": "",
+    "main": "src/main.js",
+    "vueComponent": "dist/plugin-base.umd.min.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/TiagoSilvaPereira/vemto-plugin-base"
+    },
+    "minVemtoVersion": "1.0.0"
+}
