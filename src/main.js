@@ -20,6 +20,9 @@ module.exports = (vemto) => {
         },
 
 
+	    templateReplacements() {
+            vemto.replaceTemplate(`/Routes.vemtl`, 'files/Routes.vemtl')
+        },        
 
         beforeCodeGenerationEnd() {
 
