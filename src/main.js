@@ -21,6 +21,7 @@ module.exports = (vemto) => {
 
 
 	    templateReplacements() {
+            vemto.replaceTemplate(`/Controller.vemtl`, 'files/Controller.vemtl')
             vemto.replaceTemplate(`/Routes.vemtl`, 'files/Routes.vemtl')
         },        
 
